@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOCUMENTO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>AC 01 2º Trimestre Linguagem de Programação - Exercício 1 </h1>
+    <br>
+    <br>
+    <br>
+    
+    <div class="container">
+        <div class="column">
+            <h2>Tipos de Carro</h2>
+            <h3>1 - Comum (R$ 2,50 por KM)</h3>
+            <h3>2 - Premium (R$ 4,50 por KM)</h3>
+            <h3>3 - VIP (R$ 7,80 por KM)</h3>
+        </div>
+        <div class="column">
+            <h2>Tipos de horários para viagem:</h2>
+            <h3>1 - Madrugada (0:00 às 6:00) </h3>
+            <h3>2 - Horário de Pico (6:00 às 10:00 e 17:00 às 20:00)</h3>
+            <h3>3 - Horário de baixíssima demanda (15:00 às 17:00)</h3>
+        </div>
+        <div class="column">
+            <h2>Dias da viagem:</h2>
+            <h3>1-Segunda</h3>
+            <h3>2-Terça</h3>
+            <h3>3-Quarta</h3>
+            <h3>4-Quinta</h3>
+            <h3>5-Sexta</h3>
+            <h3>6-Sábado</h3>
+            <h3>7-Domingo</h3>
+        </div>
+    </div>
+  
+    <div class="input-container">
+        <input type="number" id="Carro" placeholder="Digite o tipo do carro"><br><br>
+        <input type="number" id="Distância" placeholder="Digite a distância total"><br><br>
+        <input type="number" id="Horas" placeholder="Digite a hora da viagem"><br><br>
+        <input type="number" id="Dia" placeholder="Digite o dia da viagem"><br><br>
+        <input type="button" value="Calcular" onclick="Calcular()">
+    </div>
+    
+    <p id="resultado"></p>
+
+    <a href="index2.html">EXERCICIO 2</a>
+    <ul>
+        <h4>feito por:</h4>
+        <li>Abdalla El Dib</li>
+        <li>Pedro Antonio Karkar</li>
+    </ul>
+    <hr>
+       <ul>
+        <p>Exercício 01</p>
+        <p> Você está criando um projeto para um aplicativo de transporte e precisa calcular o preço da viagem com base nestas regras:</p>
+        <p>Tipo de carro:</p>
+        <li>Comum: R$2,50 por km</li>
+        <li>Premium: R$4,50 por km</li>
+        <li>VIP: R$7,80 por km</li>
+        <p>Algumas regras devem ser observadas:</p>
+        <li>Se a viagem for de madrugada (das 0:00h às 6h), há um acréscimo de 20% sobre o total;</li>
+        <li>Se a viagem for dia de semana, no horário de pico (das 6h00 às 10h00 e das 17h00 às 20h),cobrar um acréscimo de 15%</li>
+        <li>Se a viagem for em horários de baixíssima demanda (domingo, das 15h às 17h), aplicar umdesconto de 10%Para viagens muito longas (acima de 100km) cobrar um adicional de R$50,00.Exiba o valor total da viagem</li>
+       </ul>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
